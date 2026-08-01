@@ -2,7 +2,7 @@
 publishDate: 2026-08-01
 title: "Smart Herd: Revolutionizing Livestock Monitoring with MYOSA"
 excerpt: Smart Herd is a MYOSA-powered smart collar and real-time analytics dashboard that gives farmers continuous visibility into their livestock's health, movement, and environment, replacing manual herd checks with proactive, data-driven alerts.
-image: smart-herd/smart-herd-cover.jpg
+image: smart-herd-cover.jpeg
 tags:
   - MYOSA
   - IoT
@@ -64,42 +64,39 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
 ### Images
 
 <p align="center">
-  <img src="/assets/images/smart-herd/smart-herd-cover.jpg" width="800"><br/>
+  <img src="./smart-herd-cover.jpeg" width="800"><br/>
   <i>The full Smart Herd kit: the MYOSA motherboard, sensor stack mounted on the collar strap, and the live dashboard open on a laptop, showing real-time temperature and motion readings.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/smart-herd/dashboard-live-demo.jpg" width="800"><br/>
+  <img src="./dashboard-live-demo.jpeg" width="800"><br/>
   <i>A team member demonstrating the live Smart Herd dashboard: temperature, sensor status, and a live plot of collar orientation.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/smart-herd/prototype-field-trial.jpg" width="800"><br/>
+  <img src="./dashboard-live-demo-2.jpeg" width="800"><br/>
+  <i>A closer look at the same dashboard session, showing the sensor readout panels in more detail.</i>
+</p>
+
+<p align="center">
+  <img src="./prototype-field-trial.jpg" width="800"><br/>
   <i>The collar prototype worn by an animal during our 7-day field validation trial, run in partnership with Rashtriya Raksha University.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/smart-herd/governor-visit-closeup.jpg" width="800"><br/>
+  <img src="./governor-visit-closeup.jpg" width="800"><br/>
   <i>Close-up of the assembled collar prototype (sensor PCBs on the strap) and the MYOSA kit, presented during the Tamil Nadu Governor's visit to RRU.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/smart-herd/ieee-apscon-showcase.jpg" width="800"><br/>
+  <img src="./ieee-apscon-showcase.jpeg" width="800"><br/>
   <i>Our team presenting Smart Herd's expanded animal-monitoring capability to visiting faculty and officials at Rashtriya Raksha University, following its showcase at IEEE APSCON 2025, IIT Hyderabad.</i>
 </p>
 
 <p align="center">
-  <img src="/assets/images/smart-herd/smart-herd-concept.jpg" width="800"><br/>
+  <img src="./smart-herd-concept.png" width="800"><br/>
   <i>Our original concept visualization for Smart Herd's farm deployment: a connected herd, with each animal wearing a MYOSA-based sensor belt.</i>
 </p>
-
-### Videos
-
-<video controls width="100%">
-  <source src="/smart-herd-demo.mp4" type="video/mp4">
-</video>
-
-*Field demo: the Smart Herd collar prototype in action during our validation trial.*
 
 ---
 
@@ -203,17 +200,18 @@ Minimum SDK: as configured in app/build.gradle
 
 ```
 MYOSA 2026/
-├─ submission/               # This blog + demo images and video
+├─ blog-submission/          # This blog + demo images
 │  ├─ smart-herd-myosa-blog.md
-│  ├─ smart-herd-cover.jpg
-│  ├─ dashboard-live-demo.jpg
+│  ├─ smart-herd-cover.jpeg
+│  ├─ dashboard-live-demo.jpeg
+│  ├─ dashboard-live-demo-2.jpeg
 │  ├─ prototype-field-trial.jpg
 │  ├─ governor-visit-closeup.jpg
-│  ├─ ieee-apscon-showcase.jpg
-│  ├─ smart-herd-concept.jpg
-│  └─ smart-herd-demo.mp4
+│  ├─ ieee-apscon-showcase.jpeg
+│  └─ smart-herd-concept.png
 ├─ firmware/                 # Collar firmware (.ino) + MYOSA sensor library
-├─ mobile-app/               # Android BLE companion app
+│  ├─ MYOSA/
+│  └─ libraries/
 ├─ ml-dashboard/             # prediction.py, extended_analysis.py, dataset, requirements.txt
 ├─ dashboard-configs/        # Dashboard panel exports and attribute-card definitions
 └─ reference-materials/      # Pitch script, detailed hardware guide, library reference
