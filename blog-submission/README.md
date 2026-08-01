@@ -241,12 +241,12 @@ MYOSA 2026/
 
 ---
 
-## License (Optional)
+## License
 
 This project is developed under the MYOSA Sensors Council for academic, research, and IEEE YESIST12 evaluation purposes. Please contact the team before reusing the hardware designs, firmware, or dataset for other purposes.
 
 ---
 
-## Contribution Notes (Optional)
+## Contribution Notes
 
 We welcome feedback from farmers, veterinary researchers, and embedded/ML engineers alike. Reach out to the team or the MYOSA Sensors Council for collaboration, pilot testing, or firmware and dashboard contributions.
