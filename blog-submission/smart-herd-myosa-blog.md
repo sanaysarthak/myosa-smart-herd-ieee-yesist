@@ -11,8 +11,7 @@ tags:
   - WearableSensors
 ---
 
-<h1 align="center">Smart Herd</h1>
-<h3 align="center">Revolutionizing Livestock Monitoring with MYOSA</h3>
+<h1 align="center">Smart Herd: Revolutionizing Livestock Monitoring with MYOSA</h1>
 
 <p align="center">
   <img src="./smart-herd-cover.jpeg" width="480" alt="Smart Herd collar and dashboard">
