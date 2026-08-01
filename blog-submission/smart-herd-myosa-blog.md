@@ -58,11 +58,17 @@ Small-scale livestock farming still runs on manual observation. A farmer walks t
 Since our last round, we didn't just refine Smart Herd for farms. We also put the exact same sensor platform through a much tougher, entirely different real-world test, and came back with a stronger, more capable product for it. Here's what changed:
 
 1. **Proved the platform generalizes beyond cattle.** In partnership with the **Rashtriya Raksha University Sensors Council**, we adapted the Smart Herd hardware into a collar for monitoring working animals in a defense-research setting. It's the same MYOSA sensor core and the same telemetry pipeline, just deployed on a completely different animal in a completely different environment, and it held up. That's strong evidence the platform is a genuinely general-purpose animal-monitoring system, not a one-species product.
+
 2. **Added cloud connectivity alongside BLE.** The original design relied on Bluetooth pairing with a nearby phone. The collar firmware now also pushes live sensor data to **ThingsBoard Cloud** over Wi-Fi/MQTT, so a farm manager (or, in the RRU pilot, a base station) can monitor multiple animals remotely, not just whoever happens to be standing next to the animal.
+
 3. **Built a real machine-learning layer.** Our dashboard used to just show live readings. It now runs **Prophet-based time-series forecasting** to project where a parameter like temperature or activity is heading, and an **Isolation Forest** anomaly-detection model to flag readings that don't fit the animal's normal pattern. On top of that, correlation heatmaps help spot compound issues, like unusual motion *and* rising temperature happening at the same time. All of it is wrapped in an interactive **Streamlit** dashboard.
+
 4. **Introduced a rule-based alert engine.** On top of the ML layer, we now trigger specific, actionable alerts for prolonged inactivity, overheating (high motion plus high temperature), unexpected proximity events, and environmental anomalies. These are the kind of clear signals a busy farmer or handler can act on immediately, without needing to interpret a chart.
+
 5. **Ran a real, multi-day field trial.** The upgraded collar was worn continuously for **7 days** during the RRU pilot, recording motion, proximity, and temperature data and confirming stable real-time communication with the dashboard the whole time. It was our first sustained field validation, not just a bench test.
+
 6. **Got external validation.** The upgraded system was showcased at **IEEE APSCON 2025 (IIT Hyderabad)** and demonstrated live to the **Honorable Governor of Tamil Nadu** during a visit to Rashtriya Raksha University. That kind of outside scrutiny pushed us to tighten the product before bringing it back to the farm use case.
+
 7. **Turned field feedback into a hardware roadmap.** The trial surfaced concrete, testable feedback around collar comfort and weight. We're now using that directly to refine the physical collar design, with lighter materials, a better strap, and a more compact sensor housing, before our next round of farm pilots.
 
 ---
