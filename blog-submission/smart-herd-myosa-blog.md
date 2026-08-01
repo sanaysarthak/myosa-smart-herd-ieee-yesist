@@ -198,9 +198,11 @@ Minimum SDK: as configured in app/build.gradle
 
 ## File Structure (Optional)
 
+The repo is split into a handful of self-explanatory folders: this blog and its images, the collar firmware, the analytics dashboard, and the raw configs and reference docs behind them.
+
 ```
 MYOSA 2026/
-├─ blog-submission/          # This blog + demo images
+├─ blog-submission/
 │  ├─ smart-herd-myosa-blog.md
 │  ├─ smart-herd-cover.jpeg
 │  ├─ dashboard-live-demo.jpeg
@@ -209,13 +211,19 @@ MYOSA 2026/
 │  ├─ governor-visit-closeup.jpg
 │  ├─ ieee-apscon-showcase.jpeg
 │  └─ smart-herd-concept.png
-├─ firmware/                 # Collar firmware (.ino) + MYOSA sensor library
+├─ firmware/
 │  ├─ MYOSA/
 │  └─ libraries/
-├─ ml-dashboard/             # prediction.py, extended_analysis.py, dataset, requirements.txt
-├─ dashboard-configs/        # Dashboard panel exports and attribute-card definitions
-└─ reference-materials/      # Pitch script, detailed hardware guide, library reference
+├─ ml-dashboard/
+├─ dashboard-configs/
+└─ reference-materials/
 ```
+
+- **blog-submission/** is this write-up and every image used in it
+- **firmware/** holds the collar's Arduino sketch and the MYOSA sensor libraries it depends on
+- **ml-dashboard/** is the Python side: `prediction.py`, `extended_analysis.py`, the sensor dataset, and `requirements.txt`
+- **dashboard-configs/** has the exported dashboard panels and attribute-card definitions
+- **reference-materials/** keeps the pitch script, hardware guide, and library docs we built this from
 
 ---
 
