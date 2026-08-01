@@ -64,7 +64,7 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
 ### Images
 
 <p align="center">
-  <img src="./smart-herd-cover.jpeg" width="500"><br/>
+  <img src="./smart-herd-cover.jpeg" width="470"><br/>
   <i>The full Smart Herd kit: the MYOSA motherboard, sensor stack mounted on the collar strap, and the live dashboard open on a laptop, showing real-time temperature and motion readings.</i>
 </p>
 
@@ -79,17 +79,17 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
 </p>
 
 <p align="center">
-  <img src="./prototype-field-trial.jpg" width="500"><br/>
+  <img src="./prototype-field-trial.jpg" width="280"><br/>
   <i>The collar prototype worn by an animal during our 7-day field validation trial, run in partnership with Rashtriya Raksha University.</i>
 </p>
 
 <p align="center">
-  <img src="./governor-visit-closeup.jpg" width="500"><br/>
+  <img src="./governor-visit-closeup.jpg" width="600"><br/>
   <i>Close-up of the assembled collar prototype (sensor PCBs on the strap) and the MYOSA kit, presented during the Tamil Nadu Governor's visit to RRU.</i>
 </p>
 
 <p align="center">
-  <img src="./ieee-apscon-showcase.jpeg" width="500"><br/>
+  <img src="./ieee-apscon-showcase.jpeg" width="600"><br/>
   <i>Our team presenting Smart Herd's expanded animal-monitoring capability to visiting faculty and officials at Rashtriya Raksha University, following its showcase at IEEE APSCON 2025, IIT Hyderabad.</i>
 </p>
 
