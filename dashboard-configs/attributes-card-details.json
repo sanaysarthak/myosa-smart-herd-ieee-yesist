@@ -1,0 +1,239 @@
+{
+  "widget": {
+    "typeFullFqn": "system.cards.attributes_card",
+    "type": "latest",
+    "sizeX": 7.5,
+    "sizeY": 3,
+    "config": {
+      "datasources": [
+        {
+          "type": "device",
+          "name": "",
+          "deviceId": "fb474dc1-cea3-11ef-852e-bd51c2b30fde",
+          "dataKeys": [
+            {
+              "name": "temperature_C",
+              "type": "timeseries",
+              "label": "temperature_C",
+              "color": "#f44336",
+              "settings": {},
+              "_hash": 0.8312338019074246
+            },
+            {
+              "name": "temperature_F",
+              "type": "timeseries",
+              "label": "temperature_F",
+              "color": "#ffc107",
+              "settings": {},
+              "_hash": 0.9685740600727195
+            },
+            {
+              "name": "pressure_mmHg",
+              "type": "timeseries",
+              "label": "pressure_mmHg",
+              "color": "#607d8b",
+              "settings": {},
+              "_hash": 0.04925896955666609
+            },
+            {
+              "name": "pressure_kPa",
+              "type": "timeseries",
+              "label": "pressure_kPa",
+              "color": "#9c27b0",
+              "settings": {},
+              "_hash": 0.8393700334869258
+            },
+            {
+              "name": "proximity",
+              "type": "timeseries",
+              "label": "proximity",
+              "color": "#2196f3",
+              "settings": {},
+              "_hash": 0.7747887662420496
+            },
+            {
+              "name": "ambient_light",
+              "type": "timeseries",
+              "label": "ambient_light",
+              "color": "#4caf50",
+              "settings": {},
+              "_hash": 0.7554541527977032
+            },
+            {
+              "name": "accel_x",
+              "type": "timeseries",
+              "label": "accel_x",
+              "color": "#8bc34a",
+              "settings": {},
+              "_hash": 0.000038625065586161966
+            },
+            {
+              "name": "accel_y",
+              "type": "timeseries",
+              "label": "accel_y",
+              "color": "#3f51b5",
+              "settings": {},
+              "_hash": 0.6392513622822786
+            },
+            {
+              "name": "accel_z",
+              "type": "timeseries",
+              "label": "accel_z",
+              "color": "#e91e63",
+              "settings": {},
+              "_hash": 0.004016355902568325
+            },
+            {
+              "name": "red_proportion",
+              "type": "timeseries",
+              "label": "red_proportion",
+              "color": "#ffeb3b",
+              "settings": {},
+              "_hash": 0.36682314284575224
+            },
+            {
+              "name": "blue_proportion",
+              "type": "timeseries",
+              "label": "blue_proportion",
+              "color": "#03a9f4",
+              "settings": {},
+              "_hash": 0.24881754002427492
+            },
+            {
+              "name": "green_proportion",
+              "type": "timeseries",
+              "label": "green_proportion",
+              "color": "#ff9800",
+              "settings": {},
+              "_hash": 0.9415158719593855
+            },
+            {
+              "name": "gyro_x",
+              "type": "timeseries",
+              "label": "gyro_x",
+              "color": "#673ab7",
+              "settings": {},
+              "_hash": 0.8186490680804317
+            },
+            {
+              "name": "gyro_y",
+              "type": "timeseries",
+              "label": "gyro_y",
+              "color": "#cddc39",
+              "settings": {},
+              "_hash": 0.1858816216703436
+            },
+            {
+              "name": "gyro_z",
+              "type": "timeseries",
+              "label": "gyro_z",
+              "color": "#009688",
+              "settings": {},
+              "_hash": 0.1412812295246979
+            },
+            {
+              "name": "tilt_x",
+              "type": "timeseries",
+              "label": "tilt_x",
+              "color": "#795548",
+              "settings": {},
+              "_hash": 0.3515288020776015
+            },
+            {
+              "name": "tilt_y",
+              "type": "timeseries",
+              "label": "tilt_y",
+              "color": "#00bcd4",
+              "settings": {},
+              "_hash": 0.7202565398553018
+            },
+            {
+              "name": "tilt_z",
+              "type": "timeseries",
+              "label": "tilt_z",
+              "color": "#ff5722",
+              "settings": {},
+              "_hash": 0.1866620547772606
+            }
+          ],
+          "alarmFilterConfig": {
+            "statusList": [
+              "ACTIVE"
+            ]
+          }
+        }
+      ],
+      "timewindow": {
+        "displayValue": "",
+        "selectedTab": 0,
+        "realtime": {
+          "realtimeType": 1,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideQuickInterval": false
+        },
+        "history": {
+          "historyType": 0,
+          "interval": 1000,
+          "timewindowMs": 60000,
+          "fixedTimewindow": {
+            "startTimeMs": 1734028727143,
+            "endTimeMs": 1734115127143
+          },
+          "quickInterval": "CURRENT_DAY",
+          "hideInterval": false,
+          "hideLastInterval": false,
+          "hideFixedInterval": false,
+          "hideQuickInterval": false
+        },
+        "aggregation": {
+          "type": "AVG",
+          "limit": 25000
+        }
+      },
+      "showTitle": true,
+      "backgroundColor": "#fff",
+      "color": "rgba(0, 0, 0, 0.87)",
+      "padding": "8px",
+      "settings": {},
+      "title": "Details",
+      "useDashboardTimewindow": true,
+      "displayTimewindow": true,
+      "showTitleIcon": false,
+      "titleTooltip": "",
+      "dropShadow": true,
+      "enableFullscreen": true,
+      "enableDataExport": true,
+      "widgetStyle": {},
+      "widgetCss": "",
+      "titleStyle": {
+        "fontSize": "16px",
+        "fontWeight": 400
+      },
+      "pageSize": 1024,
+      "noDataDisplayMessage": "",
+      "preserveAspectRatio": false,
+      "resizable": true
+    },
+    "row": 0,
+    "col": 0,
+    "id": "72f997ba-d956-ace2-d96c-ee49423c5030"
+  },
+  "aliasesInfo": {
+    "datasourceAliases": {},
+    "targetDeviceAlias": null
+  },
+  "filtersInfo": {
+    "datasourceFilters": {}
+  },
+  "originalSize": {
+    "sizeX": 18,
+    "sizeY": 17,
+    "preserveAspectRatio": false,
+    "resizable": true
+  },
+  "originalColumns": 24
+}
