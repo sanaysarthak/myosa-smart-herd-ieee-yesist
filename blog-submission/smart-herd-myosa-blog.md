@@ -11,7 +11,16 @@ tags:
   - WearableSensors
 ---
 
-> A MYOSA-powered smart collar that turns a herd's movement, behaviour, and environment into insights a farmer can act on before it's too late.
+<h1 align="center">Smart Herd</h1>
+<h3 align="center">Revolutionizing Livestock Monitoring with MYOSA</h3>
+
+<p align="center">
+  <img src="./smart-herd-cover.jpeg" width="480" alt="Smart Herd collar and dashboard">
+</p>
+
+<p align="center">
+  <i>A MYOSA-powered smart collar that turns a herd's movement, behaviour, and environment into insights a farmer can act on before it's too late.</i>
+</p>
 
 ---
 
