@@ -64,37 +64,37 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
 ### Images
 
 <p align="center">
-  <img src="./smart-herd-cover.jpeg" width="800"><br/>
+  <img src="./smart-herd-cover.jpeg" width="500"><br/>
   <i>The full Smart Herd kit: the MYOSA motherboard, sensor stack mounted on the collar strap, and the live dashboard open on a laptop, showing real-time temperature and motion readings.</i>
 </p>
 
 <p align="center">
-  <img src="./dashboard-live-demo.jpeg" width="800"><br/>
+  <img src="./dashboard-live-demo.jpeg" width="500"><br/>
   <i>A team member demonstrating the live Smart Herd dashboard: temperature, sensor status, and a live plot of collar orientation.</i>
 </p>
 
 <p align="center">
-  <img src="./dashboard-live-demo-2.jpeg" width="800"><br/>
+  <img src="./dashboard-live-demo-2.jpeg" width="500"><br/>
   <i>A closer look at the same dashboard session, showing the sensor readout panels in more detail.</i>
 </p>
 
 <p align="center">
-  <img src="./prototype-field-trial.jpg" width="800"><br/>
+  <img src="./prototype-field-trial.jpg" width="500"><br/>
   <i>The collar prototype worn by an animal during our 7-day field validation trial, run in partnership with Rashtriya Raksha University.</i>
 </p>
 
 <p align="center">
-  <img src="./governor-visit-closeup.jpg" width="800"><br/>
+  <img src="./governor-visit-closeup.jpg" width="500"><br/>
   <i>Close-up of the assembled collar prototype (sensor PCBs on the strap) and the MYOSA kit, presented during the Tamil Nadu Governor's visit to RRU.</i>
 </p>
 
 <p align="center">
-  <img src="./ieee-apscon-showcase.jpeg" width="800"><br/>
+  <img src="./ieee-apscon-showcase.jpeg" width="500"><br/>
   <i>Our team presenting Smart Herd's expanded animal-monitoring capability to visiting faculty and officials at Rashtriya Raksha University, following its showcase at IEEE APSCON 2025, IIT Hyderabad.</i>
 </p>
 
 <p align="center">
-  <img src="./smart-herd-concept.png" width="800"><br/>
+  <img src="./smart-herd-concept.png" width="500"><br/>
   <i>Our original concept visualization for Smart Herd's farm deployment: a connected herd, with each animal wearing a MYOSA-based sensor belt.</i>
 </p>
 
