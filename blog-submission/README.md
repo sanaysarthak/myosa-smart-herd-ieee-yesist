@@ -112,6 +112,13 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
   <i>Our original concept visualization for Smart Herd's farm deployment: a connected herd, with each animal wearing a MYOSA-based sensor belt.</i>
 </p>
 
+### Video
+
+<p align="center">
+  <video src="./prototype-video.mp4" width="600" controls></video><br/>
+  <i>A walkthrough of the Smart Herd prototype in action.</i>
+</p>
+
 ---
 
 ## Features (Detailed)
