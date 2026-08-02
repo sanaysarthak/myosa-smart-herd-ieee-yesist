@@ -109,8 +109,11 @@ Since our last round, we didn't just refine Smart Herd for farms. We also put th
 ### Video
 
 <p align="center">
-  <video src="./blog-submission/prototype-video.mp4" width="600" controls></video><br/>
-  <i>A walkthrough of the Smart Herd prototype in action.</i>
+  <a href="./blog-submission/prototype-video.mp4">
+    <img src="./blog-submission/smart-herd-cover.jpeg" width="500"><br/>
+    ▶️ Click to watch the prototype walkthrough (prototype-video.mp4)
+  </a><br/>
+  <i>A walkthrough of the Smart Herd prototype in action. GitHub doesn't play video inline from a repo-relative path, so click the image above to download/stream the file.</i>
 </p>
 
 ---
